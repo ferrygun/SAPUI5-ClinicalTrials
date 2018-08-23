@@ -1,0 +1,42 @@
+<core:View controllerName="view.Detail" xmlns="sap.m" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:vbm="sap.ui.vbm" xmlns:vk="sap.ui.vk" xmlns:l="sap.ui.layout">
+    <Page title="{i18n&gt;Detail Information}" showNavButton="true" navButtonPress="doNavBack">
+        <ObjectHeader title="{nct_id}">
+            <attributes>
+                <ObjectAttribute text="{brief_title}" />
+                <ObjectAttribute text="{url}" />
+            </attributes>
+        </ObjectHeader>
+        <vbm:GeoMap id="vbi" width="100%" height="50%" centerPosition="{position}" zoomlevel="4">
+            <vbm:vos>
+                <vbm:Spots items="{/modelData1/0/Spots}">
+                    <vbm:items>
+                        <vbm:Spot position="{pos}" tooltip="{tooltip}" type="{type}" select="{select}" selectColor="RHLSA(0;1.0;3.0;1.0)"></vbm:Spot>
+                    </vbm:items>
+                </vbm:Spots>
+            </vbm:vos>
+        </vbm:GeoMap>
+        <IconTabBar expanded="{device&gt;/isNoPhone}">
+            <items>
+                <IconTabFilter icon="sap-icon://supplier">
+                    <form:SimpleForm id="UserForm" minWidth="1024">
+                        <core:Title text="Details" />
+                        <Label text="Country" />
+                        <Text text="{country}" />
+                        <Label text="Official Title" />
+                        <Text text="{official_title}" />
+                        <Label text="Detailed Description" />
+                        <Text text="{detailed_description}" />
+                        <Label text="Last Update" />
+                        <Text text="{last_update_submitted}" />
+                        <Label text="Contact" />
+                        <Text text="{last_name}" />
+                        <Label text="Phone" />
+                        <Text text="{phone}" />
+                        <Label text="Email" />
+                        <Text text="{email}" />
+                    </form:SimpleForm>
+                </IconTabFilter>
+            </items>
+        </IconTabBar>
+    </Page>
+</core:View>
