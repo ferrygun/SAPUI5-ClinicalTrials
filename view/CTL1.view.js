@@ -55,6 +55,8 @@ sap.ui.jsview("view.CTL1", {
         }
 
         function getLatitudeLongitude(address, callback) {
+			/*
+			//offline maps
 			$.ajax({
                 type: 'GET',
                 async: true,
@@ -65,7 +67,59 @@ sap.ui.jsview("view.CTL1", {
 				},
                 error: function(jqXHR, textStatus, errorThrown) {
                    console.log('error');
-				   callback(error);
+				   callback('no data');
+                }
+			});
+			*/
+
+			/*
+			//Openstreetmap
+			$.ajax({
+				type: 'GET',
+				url: "http://nominatim.openstreetmap.org/search?format=json&limit=1&q=" + encodeURI(address),
+  				encoding:"UTF-8",
+  				dataType: "json",
+  				async: true,		
+				cache: true,
+				success: function(data) {
+					var lat = data[0].lat;
+  					var lon = data[0].lon;
+					data = {lat: lat, lng: lon};
+					//console.log(data);
+					callback(data);
+				},
+                error: function(jqXHR, textStatus, errorThrown) {
+                   console.log(errorThrown);
+				   callback('no data');
+                }
+			});
+			*/
+
+			//Heremap
+			$.ajax({
+				type: 'GET',
+				url: "https://geocoder.cit.api.here.com/6.2/geocode.json?searchtext=" + encodeURI(address) + "&app_id=fUxNvDXVKuhEMhMwrJQu&app_code=gf7sTLGiycG5WlaOEp1DGA",
+  				encoding:"UTF-8",
+  				dataType: "json",
+  				async: true,		
+				cache: true,
+				success: function(data) {
+					console.log(address);
+					console.log(data);
+
+					if(data.Response.View.length > 0) {
+						var lat = data.Response.View[0].Result[0].Location.DisplayPosition.Latitude;
+						var lon = data.Response.View[0].Result[0].Location.DisplayPosition.Longitude;
+						data = {lat: lat, lng: lon};
+						//console.log(data);
+						callback(data);
+					} else {
+						callback('no data')
+					};
+				},
+                error: function(jqXHR, textStatus, errorThrown) {
+                   console.log(errorThrown);
+				   callback('no data');
                 }
 			});
         }
@@ -198,20 +252,54 @@ sap.ui.jsview("view.CTL1", {
                         runNext();
                         data = JSON.parse(data);
 
-						var innerFunction = function(j, geoAddress, city, process) {
+						var innerFunction = function(j, geoAddress, city, state, process) {
                             // Your work to be done is here...
+
+							if(geoAddress == "Korea, Republic of") geoAddress = "South Korea";
+
+							
+							if( city.indexOf('-city') >= 0) {
+								city = city.substring(0, city.length-5);
+							}
+							if( city.indexOf('-ku') >= 0) {
+								city = city.substring(0, city.length-3);
+							}
+
+							console.log('state:' + state);
+							if(typeof state !== 'undefined') {
+								if(state == "BGR") 
+									state = "Bulgaria";
+								if( state.indexOf('Republic') >= 0) {
+									state = state.substring(0, state.length-8);
+								}
+							} else
+								state = '';
+
+							if(city == state) 
+								state = '';
+
+							geoAddress = city + ' ' + state + ', ' + geoAddress;
+
                             getLatitudeLongitude(geoAddress, function(result) {
 								if(result != 'no data') {
-									var obj = eval('(' + result + ')');
-									result = JSON.parse(JSON.stringify(obj));
+									
+									//if using offline map
+									//var obj = eval('(' + result + ')');
+									//result = JSON.parse(JSON.stringify(obj));
+
+									//if using non-offline map
+									result = JSON.parse(JSON.stringify(result));
+									
 									lat = result.lat;
 									lng = result.lng;
 									position = "" + lng + ";" + lat + ";0";
+									
+									console.log(position);
 
 									ArrayData.push({
 										key: "" + j + "",
 										pos: lng + ';' + lat + ';0',
-										tooltip: city + ',' + geoAddress,
+										tooltip: geoAddress,
 										type: sap.ui.vbm.SemanticType.Success,
 										select: true
 									});
@@ -248,11 +336,12 @@ sap.ui.jsview("view.CTL1", {
                                     var f=1;
 									wasteTime();
 									console.log(lengthdata);
+
 									for (var j = 0; j < lengthdata; j++) {
 										if(lengthdata == 1)
-											innerFunction(f, data.location.facility.address.country, data.location.facility.address.city, process);
+											innerFunction(f, data.location.facility.address.country, data.location.facility.address.city, data.location.facility.address.state, process);
 										else {
-											innerFunction(f, data.location[j].facility.address.country, data.location[j].facility.address.city, process);
+											innerFunction(f, data.location[j].facility.address.country, data.location[j].facility.address.city, data.location[j].facility.address.state, process);
 										}
 										f=f+1;
                                     }
