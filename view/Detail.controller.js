@@ -37,7 +37,38 @@ sap.ui.controller("view.Detail", {
                         }]
                     }]
                 };
-                this.oVBI.setMapConfiguration(conf);
+
+				var oMapConfig = {
+				  "MapProvider": [{
+					"type": "",
+					"name": "HEREMAPS",
+					"description": "",
+					"tileX": "256",
+					"tileY": "256",
+					"maxLOD": "20",
+					"copyright": "Tiles Courtesy of HERE Maps",
+					"Source": [
+						{
+						"id": "s1",
+						"url": "https://1.base.maps.cit.api.here.com/maptile/2.1/maptile/newest/normal.day/{LOD}/{X}/{Y}/256/png8?app_id=fUxNvDXVKuhEMhMwrJQu&app_code=gf7sTLGiycG5WlaOEp1DGA"
+					  }, {
+						"id": "s2",
+						"url": "https://2.base.maps.cit.api.here.com/maptile/2.1/maptile/newest/normal.day/{LOD}/{X}/{Y}/256/png8?app_id=fUxNvDXVKuhEMhMwrJQu&app_code=gf7sTLGiycG5WlaOEp1DGA"
+					  }
+						]
+					}],
+					"MapLayerStacks": [{
+						"name": "Default",
+						"MapLayer": [{
+							"name": "layer1",
+							"refMapProvider": "HEREMAPS",
+							"opacity": "1.0",
+							"colBkgnd": "RGB(255,255,255)"
+						}]
+                    }]
+                };
+
+                this.oVBI.setMapConfiguration(oMapConfig);
             }
         });
 
