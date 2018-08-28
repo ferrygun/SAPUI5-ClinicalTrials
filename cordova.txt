@@ -1,0 +1,6 @@
+cordova create C:\FD\programs\clinicalTrials  com.enterprisemobility.clinicalTrials clinicalTrials
+npm install -g cordova
+cd clinicalTrials
+cordova platform add android
+cordova platform update android@6.2.2
+cordova build
