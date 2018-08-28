@@ -1,0 +1,703 @@
+{
+  "modelData": [
+    {
+      "order": "1",
+      "score": "0.40484",
+      "nct_id": "NCT02103348",
+      "url": "https://ClinicalTrials.gov/show/NCT02103348",
+      "title": "Characterizing Asthma Sputum Elasticity in the UCSF Severe Asthma Research Program",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "last_changed": "April 11, 2018",
+      "last_update_submitted": "April 11, 2018",
+      "last_update_posted": "April 13, 2018"
+    },
+    {
+      "order": "2",
+      "score": "0.39893",
+      "nct_id": "NCT02230189",
+      "url": "https://ClinicalTrials.gov/show/NCT02230189",
+      "title": "Study of the Inflammation and Airway Changes That Occur After Exposure to Allergen in Asthmatics",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Biological:Â Segmental airway allergen challenge",
+      "last_changed": "July 17, 2017",
+      "last_update_submitted": "July 17, 2017",
+      "last_update_posted": "July 19, 2017"
+    },
+    {
+      "order": "3",
+      "score": "0.39248",
+      "nct_id": "NCT01225913",
+      "url": "https://ClinicalTrials.gov/show/NCT01225913",
+      "title": "Mechanism(s) of Airflow Limitation During Exacerbation of Asthma",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â budesonide/formoterol or fluticasone/salmeterol in all asthmatics; Drug:Â budesonide/formoterol or fluticasone/salmeterol in all asthmatics",
+      "last_changed": "July 7, 2017",
+      "last_update_submitted": "July 7, 2017",
+      "last_update_posted": "July 11, 2017"
+    },
+    {
+      "order": "4",
+      "score": "0.35521",
+      "nct_id": "NCT02548598",
+      "url": "https://ClinicalTrials.gov/show/NCT02548598",
+      "title": "Analysis of Inflammation and Microbiome in Patients With Sinusitis and Asthma",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma; Chronic Rhinosinusitis",
+      "intervention_summary": "Procedure:Â Endoscopic sinus surgery",
+      "last_changed": "February 23, 2017",
+      "last_update_submitted": "February 23, 2017",
+      "last_update_posted": "February 24, 2017"
+    },
+    {
+      "order": "5",
+      "score": "0.35029",
+      "nct_id": "NCT02999789",
+      "url": "https://ClinicalTrials.gov/show/NCT02999789",
+      "title": "Interventions To Help Asthma Clinical Adherence",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma in Children; Humans; Hispanic Americans; Child",
+      "intervention_summary": "Device:Â SmartInhaler with reminder function turned on; Device:Â SmartInhaler",
+      "last_changed": "May 14, 2018",
+      "last_update_submitted": "May 14, 2018",
+      "last_update_posted": "May 17, 2018"
+    },
+    {
+      "order": "6",
+      "score": "0.34889",
+      "nct_id": "NCT03263130",
+      "url": "https://ClinicalTrials.gov/show/NCT03263130",
+      "title": "Site and Mechanism(s) of Expiratory Airflow Limitation in COPD, Emphysema and Asthma-COPD Overlap",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "COPD, Emphysema, Asthma COPD Overlap; Emphysema",
+      "intervention_summary": "Other:Â As above: diagnosis: COPD, Emphysema, Asthma-COPD Overlap",
+      "last_changed": "August 23, 2017",
+      "last_update_submitted": "August 23, 2017",
+      "last_update_posted": "August 28, 2017"
+    },
+    {
+      "order": "7",
+      "score": "0.33719",
+      "nct_id": "NCT03335046",
+      "url": "https://ClinicalTrials.gov/show/NCT03335046",
+      "title": "Home Visits to Optimize Medical and Educational Success Among Sacramento Schoolchildren With Asthma",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma; Chronic School Absenteeism",
+      "intervention_summary": "Behavioral:Â Home Visit; Behavioral:Â Standard Care",
+      "last_changed": "January 3, 2018",
+      "last_update_submitted": "January 3, 2018",
+      "last_update_posted": "January 5, 2018"
+    },
+    {
+      "order": "8",
+      "score": "0.33661",
+      "nct_id": "NCT03627689",
+      "url": "https://ClinicalTrials.gov/show/NCT03627689",
+      "title": "Molekule for Allergic Rhinitis/Asthma",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma; Allergic Rhinitis; Allergic Conjunctivitis",
+      "intervention_summary": "Other:Â Active air purifier in respiratory allergies/asthma; Other:Â Sham air purifier",
+      "last_changed": "August 9, 2018",
+      "last_update_submitted": "August 9, 2018",
+      "last_update_posted": "August 13, 2018"
+    },
+    {
+      "order": "9",
+      "score": "0.32815",
+      "nct_id": "NCT01508078",
+      "url": "https://ClinicalTrials.gov/show/NCT01508078",
+      "title": "Characterization of Adult Subjects for Asthmatic Research Studies",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "last_changed": "April 10, 2018",
+      "last_update_submitted": "April 10, 2018",
+      "last_update_posted": "April 11, 2018"
+    },
+    {
+      "order": "10",
+      "score": "0.3037",
+      "nct_id": "NCT03089970",
+      "url": "https://ClinicalTrials.gov/show/NCT03089970",
+      "title": "Using Breath Metabolites to Determine Specific Virus Infection in Asthmatic Patients",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Upper Respiratory Tract Infections, Asthma, Exhaled Breath",
+      "intervention_summary": "Diagnostic Test:Â Exhaled breath condensate collection",
+      "last_changed": "April 9, 2018",
+      "last_update_submitted": "April 9, 2018",
+      "last_update_posted": "April 11, 2018"
+    },
+    {
+      "order": "11",
+      "score": "0.29514",
+      "nct_id": "NCT00203684",
+      "url": "https://ClinicalTrials.gov/show/NCT00203684",
+      "title": "Mentored Patient-Oriented Research Career Development Award",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma; Distal Lung Inflammation",
+      "intervention_summary": "Drug:Â Flunisolide-HFA",
+      "last_changed": "February 15, 2017",
+      "last_update_submitted": "February 15, 2017",
+      "last_update_posted": "February 17, 2017"
+    },
+    {
+      "order": "12",
+      "score": "0.29005",
+      "nct_id": "NCT02791542",
+      "url": "https://ClinicalTrials.gov/show/NCT02791542",
+      "title": "Sorting and Expression Profiling of Airway Cells From Humans (The SEARCH Study)",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "last_changed": "February 27, 2018",
+      "last_update_submitted": "February 27, 2018",
+      "last_update_posted": "March 1, 2018"
+    },
+    {
+      "order": "13",
+      "score": "0.2486",
+      "nct_id": "NCT03581084",
+      "url": "https://ClinicalTrials.gov/show/NCT03581084",
+      "title": "Inpatient Clinical Trial of NAC",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â N-acetylcysteine",
+      "last_changed": "July 9, 2018",
+      "last_update_submitted": "July 9, 2018",
+      "last_update_posted": "July 11, 2018"
+    },
+    {
+      "order": "14",
+      "score": "0.23972",
+      "nct_id": "NCT03307512",
+      "url": "https://ClinicalTrials.gov/show/NCT03307512",
+      "title": "PK and PD Profile of Dance 501 in Healthy, Non-diabetic Subjects With Mild to Moderate Asthma or COPD",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Safety and Tolerability",
+      "intervention_summary": "Drug:Â inhaled human insulin; Drug:Â Insulin Lispro (Humalog U-100)",
+      "last_changed": "May 1, 2018",
+      "last_update_submitted": "May 1, 2018",
+      "last_update_posted": "May 3, 2018"
+    },
+    {
+      "order": "15",
+      "score": "0.2279",
+      "nct_id": "NCT03539705",
+      "url": "https://ClinicalTrials.gov/show/NCT03539705",
+      "title": "Food Allergy Registry at a Single Site",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Allergy and Asthma",
+      "intervention_summary": "Other:Â There is no intervention",
+      "last_changed": "May 16, 2018",
+      "last_update_submitted": "May 16, 2018",
+      "last_update_posted": "May 28, 2018"
+    },
+    {
+      "order": "16",
+      "score": "0.12628",
+      "nct_id": "NCT03215758",
+      "url": "https://ClinicalTrials.gov/show/NCT03215758",
+      "title": "Study of Efficacy and Safety of QAW039 When Added to Standard-of-care Asthma Therapy in Patients With Uncontrolled Asthma",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â QAW039; Drug:Â Placebo",
+      "last_changed": "May 4, 2018",
+      "last_update_submitted": "May 4, 2018",
+      "last_update_posted": "May 10, 2018"
+    },
+    {
+      "order": "17",
+      "score": "0.12585",
+      "nct_id": "NCT02554786",
+      "url": "https://ClinicalTrials.gov/show/NCT02554786",
+      "title": "A Multicenter Randomized 52 Week Treatment Double-blind, Triple Dummy Parallel Group Study to Assess the Efficacy and Safety of QMF149 Compared to Mometasone Furoate in Patients With Asthma",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â QMF149; Drug:Â QMF149; Drug:Â MF 400; Drug:Â MF 400; Drug:Â salmeterol /fluticasone",
+      "last_changed": "March 6, 2018",
+      "last_update_submitted": "March 6, 2018",
+      "last_update_posted": "March 7, 2018"
+    },
+    {
+      "order": "18",
+      "score": "0.12582",
+      "nct_id": "NCT03557307",
+      "url": "https://ClinicalTrials.gov/show/NCT03557307",
+      "title": "Study to Evaluate Efficacy and Safety of Benralizumab in Reducing Oral Corticosteroid Use in Adult Patients With Severe Asthma",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Biological:Â Benralizumab",
+      "last_changed": "August 8, 2018",
+      "last_update_submitted": "August 8, 2018",
+      "last_update_posted": "August 9, 2018"
+    },
+    {
+      "order": "19",
+      "score": "0.12516",
+      "nct_id": "NCT03052517",
+      "url": "https://ClinicalTrials.gov/show/NCT03052517",
+      "title": "Study of Safety of QAW039 in Patients With Asthma Inadequately Controlled on Standard-of-care Asthma Treatment",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â QAW039 Dose 1; Drug:Â QAW039 Dose 2; Drug:Â Placebo",
+      "last_changed": "June 27, 2018",
+      "last_update_submitted": "June 27, 2018",
+      "last_update_posted": "June 29, 2018"
+    },
+    {
+      "order": "20",
+      "score": "0.12495",
+      "nct_id": "NCT03226392",
+      "url": "https://ClinicalTrials.gov/show/NCT03226392",
+      "title": "Study of Efficacy and Safety of QAW039 When Added to Standard-of-care Asthma Therapy in Patients With Uncontrolled Asthma",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â QAW039; Drug:Â Placebo",
+      "last_changed": "May 31, 2018",
+      "last_update_submitted": "May 31, 2018",
+      "last_update_posted": "June 4, 2018"
+    },
+    {
+      "order": "21",
+      "score": "0.12294",
+      "nct_id": "NCT03347279",
+      "url": "https://ClinicalTrials.gov/show/NCT03347279",
+      "title": "Study to Evaluate Tezepelumab in Adults & Adolescents With Severe Uncontrolled Asthma",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Biological:Â Experimental: Tezepelumab; Other:Â Placebo",
+      "last_changed": "July 5, 2018",
+      "last_update_submitted": "July 5, 2018",
+      "last_update_posted": "July 6, 2018"
+    },
+    {
+      "order": "22",
+      "score": "0.12289",
+      "nct_id": "NCT02563067",
+      "url": "https://ClinicalTrials.gov/show/NCT02563067",
+      "title": "Study of Efficacy and Safety of QAW039 in Patients With Severe Asthma Inadequately Controlled With Standard of Care Asthma Treatment.",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â QAW039; Drug:Â QAW039; Drug:Â Placebo",
+      "last_changed": "December 7, 2017",
+      "last_update_submitted": "December 7, 2017",
+      "last_update_posted": "December 11, 2017"
+    },
+    {
+      "order": "23",
+      "score": "0.1219",
+      "nct_id": "NCT03387852",
+      "url": "https://ClinicalTrials.gov/show/NCT03387852",
+      "title": "Evaluation of SAR440340 and as Combination Therapy With Dupilumab in Moderate-to-Severe Asthma Patients",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â SAR440340/REGN3500; Drug:Â Dupilumab; Drug:Â Fluticasone or Fluticasone/salmeterol combination; Drug:Â Placebo for SAR440340 (REGN3500); Drug:Â Placebo for dupilumab",
+      "last_changed": "August 2, 2018",
+      "last_update_submitted": "August 2, 2018",
+      "last_update_posted": "August 3, 2018"
+    },
+    {
+      "order": "24",
+      "score": "0.12126",
+      "nct_id": "NCT02555683",
+      "url": "https://ClinicalTrials.gov/show/NCT02555683",
+      "title": "Study of Efficacy and Safety of QAW039 in Patients With Severe Asthma Inadequately Controlled With Standard of Care Asthma Treatment.",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â QAW039; Drug:Â QAW039; Drug:Â Placebo",
+      "last_changed": "March 2, 2018",
+      "last_update_submitted": "March 2, 2018",
+      "last_update_posted": "March 5, 2018"
+    },
+    {
+      "order": "25",
+      "score": "0.12067",
+      "nct_id": "NCT03373045",
+      "url": "https://ClinicalTrials.gov/show/NCT03373045",
+      "title": "Observational Study of Characteristics, Treatment and Outcomes With Severe Asthma in the United States (CHRONICLE)",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "last_changed": "July 31, 2018",
+      "last_update_submitted": "July 31, 2018",
+      "last_update_posted": "August 1, 2018"
+    },
+    {
+      "order": "26",
+      "score": "0.11997",
+      "nct_id": "NCT03170271",
+      "url": "https://ClinicalTrials.gov/show/NCT03170271",
+      "title": "A Study of the Safety and Effectiveness of Benralizumab to Treat Patients With Severe Uncontrolled Asthma.",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â Benralizumab (Medi-563); Drug:Â Placebo",
+      "last_changed": "July 17, 2018",
+      "last_update_submitted": "July 17, 2018",
+      "last_update_posted": "July 18, 2018"
+    },
+    {
+      "order": "27",
+      "score": "0.11813",
+      "nct_id": "NCT03358147",
+      "url": "https://ClinicalTrials.gov/show/NCT03358147",
+      "title": "Efficacy and Safety of PT001 to Placebo and Open-label SpirivaÂ® RespimatÂ® in Subjects With Persistant Asthma",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â GP MDI 28.8 Î¼g; Drug:Â GP MDI 14.4 Î¼g; Drug:Â GP MDI 7.2 Î¼g; Drug:Â Placebo MDI; Drug:Â Spiriva Respimat 2.5 Î¼g",
+      "last_changed": "July 27, 2018",
+      "last_update_submitted": "July 27, 2018",
+      "last_update_posted": "July 30, 2018"
+    },
+    {
+      "order": "28",
+      "score": "0.11056",
+      "nct_id": "NCT03299686",
+      "url": "https://ClinicalTrials.gov/show/NCT03299686",
+      "title": "Study to Assess the Efficacy and Safety of CJM112 in Patients With Inadequately Controlled Severe Asthma",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â CJM112; Other:Â Placebo to CJM112",
+      "last_changed": "March 15, 2018",
+      "last_update_submitted": "March 15, 2018",
+      "last_update_posted": "March 16, 2018"
+    },
+    {
+      "order": "29",
+      "score": "0.10982",
+      "nct_id": "NCT03406078",
+      "url": "https://ClinicalTrials.gov/show/NCT03406078",
+      "title": "Study to Evaluate the Efficacy and Safety of Tezepelumab in Reducing Oral Corticosteroid Use in Adults With Oral Corticosteroid Dependent Asthma",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Biological:Â Tezepelumab; Other:Â Placebo",
+      "last_changed": "August 1, 2018",
+      "last_update_submitted": "August 1, 2018",
+      "last_update_posted": "August 2, 2018"
+    },
+    {
+      "order": "30",
+      "score": "0.10889",
+      "nct_id": "NCT02980133",
+      "url": "https://ClinicalTrials.gov/show/NCT02980133",
+      "title": "Study of Fluticasone Propionate Multidose Dry Powder Inhaler Compared With Fluticasone Propionate/Salmeterol Multidose Dry Powder Inhaler",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â Fp MDPI; Drug:Â FS MDPI; Drug:Â Placebo",
+      "last_changed": "July 18, 2018",
+      "last_update_submitted": "July 18, 2018",
+      "last_update_posted": "July 20, 2018"
+    },
+    {
+      "order": "31",
+      "score": "0.10728",
+      "nct_id": "NCT02555371",
+      "url": "https://ClinicalTrials.gov/show/NCT02555371",
+      "title": "Cessation Versus Continuation of Long-term Mepolizumab in Severe Eosinophilic Asthma Patients",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Biological:Â Mepolizumab 100mg; Drug:Â Placebo",
+      "last_changed": "January 12, 2018",
+      "last_update_submitted": "January 12, 2018",
+      "last_update_posted": "January 17, 2018"
+    },
+    {
+      "order": "32",
+      "score": "0.10661",
+      "nct_id": "NCT02889809",
+      "url": "https://ClinicalTrials.gov/show/NCT02889809",
+      "title": "Effects of a Orally Inhaled Fluticasone Furoate on Growth Velocity in Prepubertal, Paediatric Subjects With Asthma Over a Year",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â Fluticasone furoate; Drug:Â Placebo; Drug:Â Montelukast; Drug:Â Short Acting Beta 2 Agonist",
+      "last_changed": "August 10, 2018",
+      "last_update_submitted": "August 10, 2018",
+      "last_update_posted": "August 13, 2018"
+    },
+    {
+      "order": "33",
+      "score": "0.10436",
+      "nct_id": "NCT03248128",
+      "url": "https://ClinicalTrials.gov/show/NCT03248128",
+      "title": "Safety and Efficacy Study of Fluticasone Furoate/Vilanterol (FF/VI) Fixed Dose Combination (FDC) Compared to FF Alone in Subjects With Asthma",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â FF/VI via ELLIPTA DPI; Drug:Â FF via ELLIPTA DPI",
+      "last_changed": "August 10, 2018",
+      "last_update_submitted": "August 10, 2018",
+      "last_update_posted": "August 13, 2018"
+    },
+    {
+      "order": "34",
+      "score": "0.098892",
+      "nct_id": "NCT03084718",
+      "url": "https://ClinicalTrials.gov/show/NCT03084718",
+      "title": "An 8-week Dose Ranging Study of CHF 718 pMDI in Asthmatic Subjects",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â CHF 781; Drug:Â Placebos; Drug:Â Beclomethasone Dipropionate",
+      "last_changed": "August 1, 2018",
+      "last_update_submitted": "August 1, 2018",
+      "last_update_posted": "August 2, 2018"
+    },
+    {
+      "order": "35",
+      "score": "0.098593",
+      "nct_id": "NCT02687815",
+      "url": "https://ClinicalTrials.gov/show/NCT02687815",
+      "title": "Vitamin D to Prevent Severe Asthma Exacerbations (Vit-D-Kids Asthma)",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â vitamin D3 4000 IU; Drug:Â Placebo",
+      "last_changed": "July 30, 2018",
+      "last_update_submitted": "July 30, 2018",
+      "last_update_posted": "August 1, 2018"
+    },
+    {
+      "order": "36",
+      "score": "0.08979",
+      "nct_id": "NCT03532490",
+      "url": "https://ClinicalTrials.gov/show/NCT03532490",
+      "title": "Trial of Roflumilast in Asthma Management (TRIM)",
+      "status": {
+        "_": "Not yet recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma; Obesity",
+      "intervention_summary": "Drug:Â Roflumilast 500 Mcg Oral Tablet; Drug:Â Placebo oral capsule",
+      "last_changed": "May 21, 2018",
+      "last_update_submitted": "May 21, 2018",
+      "last_update_posted": "May 23, 2018"
+    },
+    {
+      "order": "37",
+      "score": "0.087423",
+      "nct_id": "NCT02495168",
+      "url": "https://ClinicalTrials.gov/show/NCT02495168",
+      "title": "Randomized, Placebo-controlled, Multi-dose, Study Comparing Budesonide/Formoterol to SymbicortÂ® in Asthmatic Patients",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â Symbicort; Drug:Â Generic Budesonide/Formoterol fumarate dihydrate; Drug:Â Placebo",
+      "last_changed": "January 12, 2018",
+      "last_update_submitted": "January 12, 2018",
+      "last_update_posted": "January 17, 2018"
+    },
+    {
+      "order": "38",
+      "score": "0.080803",
+      "nct_id": "NCT02760329",
+      "url": "https://ClinicalTrials.gov/show/NCT02760329",
+      "title": "Observational Study of Obstructive Lung Disease (NOVELTY)",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma; COPD; Chronic Obstructive Pulmonary Disease",
+      "intervention_summary": "Procedure:Â Blood draw; Procedure:Â Urine; Procedure:Â Lung function measurements; Procedure:Â Fractional Exhaled Nitric Oxide (FENO)",
+      "last_changed": "August 1, 2018",
+      "last_update_submitted": "August 1, 2018",
+      "last_update_posted": "August 2, 2018"
+    },
+    {
+      "order": "39",
+      "score": "0.077542",
+      "nct_id": "NCT02570984",
+      "url": "https://ClinicalTrials.gov/show/NCT02570984",
+      "title": "Preventing Asthma in High Risk Kids",
+      "status": {
+        "_": "Not yet recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â Omalizumab; Drug:Â Placebo",
+      "last_changed": "July 16, 2018",
+      "last_update_submitted": "July 16, 2018",
+      "last_update_posted": "July 17, 2018"
+    },
+    {
+      "order": "40",
+      "score": "0.077028",
+      "nct_id": "NCT02948959",
+      "url": "https://ClinicalTrials.gov/show/NCT02948959",
+      "title": "Evaluation of Dupilumab in Children With Uncontrolled Asthma",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma",
+      "intervention_summary": "Drug:Â Dupilumab; Other:Â Placebo; Drug:Â Asthma Controller Therapies (incl. prednisone/prednisolone); Drug:Â Asthma Reliever Therapies",
+      "last_changed": "August 2, 2018",
+      "last_update_submitted": "August 2, 2018",
+      "last_update_posted": "August 3, 2018"
+    },
+    {
+      "order": "41",
+      "score": "0.074961",
+      "nct_id": "NCT03028350",
+      "url": "https://ClinicalTrials.gov/show/NCT03028350",
+      "title": "Oral Ifetroban to Treat Aspirin Exacerbated Respiratory Disease (AERD)",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Asthma, Aspirin-Induced",
+      "intervention_summary": "Drug:Â Ifetroban Oral Capsule; Drug:Â Placebo Oral Capsule",
+      "last_changed": "May 18, 2018",
+      "last_update_submitted": "May 18, 2018",
+      "last_update_posted": "May 21, 2018"
+    },
+    {
+      "order": "42",
+      "score": "0.055972",
+      "nct_id": "NCT03332459",
+      "url": "https://ClinicalTrials.gov/show/NCT03332459",
+      "title": "A Long-term Follow-up Study to Evaluate the Impact of Lumicitabine on the Incidence of Asthma and/or Wheezing in Infants and Children With a History of Respiratory Syncytial Virus Infection",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "Respiratory Syncytial Virus Infections",
+      "intervention_summary": "Drug:Â Lumicitabine; Drug:Â Placebo",
+      "last_changed": "August 14, 2018",
+      "last_update_submitted": "August 14, 2018",
+      "last_update_posted": "August 15, 2018"
+    },
+    {
+      "order": "43",
+      "score": "0.055612",
+      "nct_id": "NCT00244686",
+      "url": "https://ClinicalTrials.gov/show/NCT00244686",
+      "title": "This Record Contains Information About the Mepolizumab Compassionate Use (CU) Product Activities: 104317: CU and Long-Term Access Study of Mepolizumab in HES. 201956:A Long-term Access Programme for Subjects With Severe Asthma 112562: Expanded Access for Patients With Hypereosinophilic",
+      "status": {
+        "_": "Available",
+        "open": "Y"
+      },
+      "condition_summary": "Hypereosinophilic Syndrome",
+      "intervention_summary": "Drug:Â Mepolizumab",
+      "last_changed": "April 11, 2018",
+      "last_update_submitted": "April 11, 2018",
+      "last_update_posted": "April 13, 2018"
+    },
+    {
+      "order": "44",
+      "score": "0.015948",
+      "nct_id": "NCT01931644",
+      "url": "https://ClinicalTrials.gov/show/NCT01931644",
+      "title": "Be the Bridge Between Researchers and a Cure (GVHD, ALS, Hepatitis B, Alzheimer's Disease, Leukemia, and More)",
+      "status": {
+        "_": "Recruiting",
+        "open": "Y"
+      },
+      "condition_summary": "All Diagnosed Health Conditions",
+      "last_changed": "April 16, 2018",
+      "last_update_submitted": "April 16, 2018",
+      "last_update_posted": "April 18, 2018"
+    }
+  ]
+}
